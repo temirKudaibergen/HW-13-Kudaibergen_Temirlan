@@ -45,6 +45,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C84EEF1229B90D9B00EEB658 /* UIKit+Exstansion */ = {
+			isa = PBXGroup;
+			children = (
+				C855909A29B4AE6E0079B560 /* ViewController.swift */,
+				C84EEF0C29B8C25D00EEB658 /* Model.swift */,
+				C84EEF0E29B8C97D00EEB658 /* CustomtableViewCell.swift */,
+				C84EEF0A29B8C01B00EEB658 /* ExtansionViewController.swift */,
+				C84EEF1029B8D0D400EEB658 /* DetailView.swift */,
+			);
+			path = "UIKit+Exstansion";
+			sourceTree = "<group>";
+		};
 		C855908A29B4AE6E0079B560 = {
 			isa = PBXGroup;
 			children = (
@@ -66,11 +78,6 @@
 			children = (
 				C85590AB29B4AFD70079B560 /* Resource */,
 				C85590AA29B4AFCA0079B560 /* Source */,
-				C855909A29B4AE6E0079B560 /* ViewController.swift */,
-				C84EEF0C29B8C25D00EEB658 /* Model.swift */,
-				C84EEF0E29B8C97D00EEB658 /* CustomtableViewCell.swift */,
-				C84EEF0A29B8C01B00EEB658 /* ExtansionViewController.swift */,
-				C84EEF1029B8D0D400EEB658 /* DetailView.swift */,
 			);
 			path = "HW-13-Kudaibergen_Temirlan";
 			sourceTree = "<group>";
@@ -78,6 +85,7 @@
 		C85590AA29B4AFCA0079B560 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				C84EEF1229B90D9B00EEB658 /* UIKit+Exstansion */,
 				C85590AF29B4B35E0079B560 /* Storyboard */,
 				C85590AE29B4B3550079B560 /* App */,
 			);
