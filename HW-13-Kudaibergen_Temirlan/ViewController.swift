@@ -10,6 +10,8 @@ import SnapKit
 
 class ViewController: UIViewController, UITableViewDelegate {    
 
+    private var tabsSetting: [[Tabs]]?
+    
     //    MARK: UI
     
     private lazy var tableView: UITableView = {
@@ -23,6 +25,7 @@ class ViewController: UIViewController, UITableViewDelegate {
     //    MARK: Lifecyle
     override func viewDidLoad() {
         super.viewDidLoad()
+        tabsSetting = Tabs.newTabs
         setupHierarchy()
         setupLayout()
     }
