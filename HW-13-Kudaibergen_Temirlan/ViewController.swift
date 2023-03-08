@@ -8,15 +8,15 @@
 import UIKit
 import SnapKit
 
-class ViewController: UIViewController, UITableViewDelegate {    
+class ViewController: UIViewController {    
 
-    private var tabsSetting: [[Tabs]]?
+    var tabsSetting: [[Tabs]]?
     
     //    MARK: UI
     
     private lazy var tableView: UITableView = {
         let tableView = UITableView(frame: .zero, style: .grouped)
-        tableView.register(ViewController.self, forCellReuseIdentifier: "cell")
+        tableView.register(CustomtableViewCell.self, forCellReuseIdentifier: "cell")
         tableView.dataSource = self
         tableView.delegate = self
         return tableView
@@ -45,7 +45,5 @@ class ViewController: UIViewController, UITableViewDelegate {
             $0.top.right.bottom.left.equalTo(view)
         }
     }
-    
-    
 }
 

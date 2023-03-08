@@ -10,6 +10,8 @@
 		C84EEF0929B8BDFF00EEB658 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C84EEF0829B8BDFF00EEB658 /* SnapKit */; };
 		C84EEF0B29B8C01B00EEB658 /* ExtansionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84EEF0A29B8C01B00EEB658 /* ExtansionViewController.swift */; };
 		C84EEF0D29B8C25D00EEB658 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84EEF0C29B8C25D00EEB658 /* Model.swift */; };
+		C84EEF0F29B8C97D00EEB658 /* CustomtableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84EEF0E29B8C97D00EEB658 /* CustomtableViewCell.swift */; };
+		C84EEF1129B8D0D400EEB658 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84EEF1029B8D0D400EEB658 /* DetailView.swift */; };
 		C855909729B4AE6E0079B560 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C855909629B4AE6E0079B560 /* AppDelegate.swift */; };
 		C855909929B4AE6E0079B560 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C855909829B4AE6E0079B560 /* SceneDelegate.swift */; };
 		C855909B29B4AE6E0079B560 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C855909A29B4AE6E0079B560 /* ViewController.swift */; };
@@ -20,6 +22,8 @@
 /* Begin PBXFileReference section */
 		C84EEF0A29B8C01B00EEB658 /* ExtansionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtansionViewController.swift; sourceTree = "<group>"; };
 		C84EEF0C29B8C25D00EEB658 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		C84EEF0E29B8C97D00EEB658 /* CustomtableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomtableViewCell.swift; sourceTree = "<group>"; };
+		C84EEF1029B8D0D400EEB658 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		C855909329B4AE6E0079B560 /* HW-13-Kudaibergen_Temirlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW-13-Kudaibergen_Temirlan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C855909629B4AE6E0079B560 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C855909829B4AE6E0079B560 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,7 +67,10 @@
 				C85590AB29B4AFD70079B560 /* Resource */,
 				C85590AA29B4AFCA0079B560 /* Source */,
 				C855909A29B4AE6E0079B560 /* ViewController.swift */,
+				C84EEF0C29B8C25D00EEB658 /* Model.swift */,
+				C84EEF0E29B8C97D00EEB658 /* CustomtableViewCell.swift */,
 				C84EEF0A29B8C01B00EEB658 /* ExtansionViewController.swift */,
+				C84EEF1029B8D0D400EEB658 /* DetailView.swift */,
 			);
 			path = "HW-13-Kudaibergen_Temirlan";
 			sourceTree = "<group>";
@@ -73,7 +80,6 @@
 			children = (
 				C85590AF29B4B35E0079B560 /* Storyboard */,
 				C85590AE29B4B3550079B560 /* App */,
-				C84EEF0C29B8C25D00EEB658 /* Model.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -188,8 +194,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C84EEF0F29B8C97D00EEB658 /* CustomtableViewCell.swift in Sources */,
 				C84EEF0D29B8C25D00EEB658 /* Model.swift in Sources */,
 				C855909B29B4AE6E0079B560 /* ViewController.swift in Sources */,
+				C84EEF1129B8D0D400EEB658 /* DetailView.swift in Sources */,
 				C855909729B4AE6E0079B560 /* AppDelegate.swift in Sources */,
 				C855909929B4AE6E0079B560 /* SceneDelegate.swift in Sources */,
 				C84EEF0B29B8C01B00EEB658 /* ExtansionViewController.swift in Sources */,

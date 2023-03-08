@@ -17,7 +17,6 @@ struct Tabs: Hashable {
 enum TypeOfAccsessories {
     case disclosureIndicator
     case switchButton
-    case detailDisclosureButton
 }
 
 extension Tabs {
@@ -46,7 +45,7 @@ extension Tabs {
          Tabs(tabsStructName: "Siri и Поиск" , tabsStructImage: UIImage(named: "Siri и Поиск") ?? UIImage.remove, cellType: .disclosureIndicator),
          Tabs(tabsStructName: "Face ID и код-пароль", tabsStructImage: UIImage(named: "Face ID и код-пароль") ?? UIImage.remove, cellType: .disclosureIndicator),
          Tabs(tabsStructName: "Экстренный вызов - SOS", tabsStructImage: UIImage(named: "Экстренный вызов") ?? UIImage.remove, cellType: .disclosureIndicator),
-         Tabs(tabsStructName: "Уведомления о контакте" , tabsStructImage: UIImage(named: "Уведомления") ?? UIImage.remove, cellType: .disclosureIndicator),
+         Tabs(tabsStructName: "Уведомления о контакте" , tabsStructImage: UIImage(named: "Уведомления о контакте") ?? UIImage.remove, cellType: .disclosureIndicator),
          Tabs(tabsStructName: "Аккумулятор", tabsStructImage: UIImage(named: "Аккумулятор") ?? UIImage.remove, cellType: .disclosureIndicator),
          Tabs(tabsStructName: "Конфиденциальность и безопасность", tabsStructImage: UIImage(named: "Конфиденциальность") ?? UIImage.remove, cellType: .disclosureIndicator)]
     ]
