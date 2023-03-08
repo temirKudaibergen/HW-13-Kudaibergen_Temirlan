@@ -28,13 +28,11 @@ extension Tabs {
          Tabs(tabsStructName: "Сотовая связь" , tabsStructImage: UIImage(named: "Сотовая связь") ?? UIImage.remove, cellType: .disclosureIndicator),
          Tabs(tabsStructName: "Режим модема", tabsStructImage: UIImage(named: "Режим модема") ?? UIImage.remove, cellType: .disclosureIndicator),
          Tabs(tabsStructName: "VPN", tabsStructImage: UIImage(named: "VPN") ?? UIImage.remove, cellType: .disclosureIndicator, statusText: "Не подключен")],
-        
         //         Второе отделение
         [Tabs(tabsStructName: "Уведомления" , tabsStructImage: UIImage(named: "Уведомления") ?? UIImage.remove, cellType: .disclosureIndicator),
          Tabs(tabsStructName: "Звуки, тактильные сигналы", tabsStructImage: UIImage(named: "Звук") ?? UIImage.remove, cellType: .disclosureIndicator),
          Tabs(tabsStructName: "Фокусирование", tabsStructImage: UIImage(named: "Фокусирование") ?? UIImage.remove, cellType: .disclosureIndicator),
          Tabs(tabsStructName: "Экранное время", tabsStructImage: UIImage(named: "Экранное время") ?? UIImage.remove, cellType: .disclosureIndicator)],
-        
         //         Третье отделение
         [Tabs(tabsStructName: "Основные" , tabsStructImage: UIImage(named: "Основные") ?? UIImage.remove, cellType: .disclosureIndicator),
          Tabs(tabsStructName: "Пункт управления", tabsStructImage: UIImage(named: "Пункт управления") ?? UIImage.remove, cellType: .disclosureIndicator),

@@ -11,8 +11,7 @@ class DetailView: UIViewController {
     
     var tabs: Tabs?
     
-    //    MARK: UI
-    
+    //    MARK: UI    
     private lazy var tabsImage: UIImageView = {
         let tabsImage = UIImageView()
         tabsImage.clipsToBounds = true
@@ -27,7 +26,6 @@ class DetailView: UIViewController {
     }()
     
     //    MARK: Lifecyle
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupHierarchy()
@@ -36,7 +34,6 @@ class DetailView: UIViewController {
     }
     
     //    MARK: Setup
-    
     private func setupHierarchy() {
         view.backgroundColor = .white
         view.addSubview(tabsImage)

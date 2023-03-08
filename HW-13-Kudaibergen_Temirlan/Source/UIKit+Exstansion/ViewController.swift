@@ -9,11 +9,10 @@ import UIKit
 import SnapKit
 
 class ViewController: UIViewController {    
-
+    
     var tabsSetting: [[Tabs]]?
     
-    //    MARK: UI
-    
+    //    MARK: UI    
     private lazy var tableView: UITableView = {
         let tableView = UITableView(frame: .zero, style: .grouped)
         tableView.register(CustomtableViewCell.self, forCellReuseIdentifier: "cell")
