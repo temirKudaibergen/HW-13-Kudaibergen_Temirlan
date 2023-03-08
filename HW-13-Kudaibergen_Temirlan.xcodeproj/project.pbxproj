@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C84EEF0929B8BDFF00EEB658 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C84EEF0829B8BDFF00EEB658 /* SnapKit */; };
+		C84EEF0B29B8C01B00EEB658 /* ExtansionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84EEF0A29B8C01B00EEB658 /* ExtansionViewController.swift */; };
 		C855909729B4AE6E0079B560 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C855909629B4AE6E0079B560 /* AppDelegate.swift */; };
 		C855909929B4AE6E0079B560 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C855909829B4AE6E0079B560 /* SceneDelegate.swift */; };
 		C855909B29B4AE6E0079B560 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C855909A29B4AE6E0079B560 /* ViewController.swift */; };
@@ -15,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C84EEF0A29B8C01B00EEB658 /* ExtansionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtansionViewController.swift; sourceTree = "<group>"; };
 		C855909329B4AE6E0079B560 /* HW-13-Kudaibergen_Temirlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW-13-Kudaibergen_Temirlan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C855909629B4AE6E0079B560 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C855909829B4AE6E0079B560 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C84EEF0929B8BDFF00EEB658 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +61,7 @@
 				C85590AB29B4AFD70079B560 /* Resource */,
 				C85590AA29B4AFCA0079B560 /* Source */,
 				C855909A29B4AE6E0079B560 /* ViewController.swift */,
+				C84EEF0A29B8C01B00EEB658 /* ExtansionViewController.swift */,
 			);
 			path = "HW-13-Kudaibergen_Temirlan";
 			sourceTree = "<group>";
@@ -120,6 +125,9 @@
 			dependencies = (
 			);
 			name = "HW-13-Kudaibergen_Temirlan";
+			packageProductDependencies = (
+				C84EEF0829B8BDFF00EEB658 /* SnapKit */,
+			);
 			productName = "HW-13-Kudaibergen_Temirlan";
 			productReference = C855909329B4AE6E0079B560 /* HW-13-Kudaibergen_Temirlan.app */;
 			productType = "com.apple.product-type.application";
@@ -148,6 +156,9 @@
 				Base,
 			);
 			mainGroup = C855908A29B4AE6E0079B560;
+			packageReferences = (
+				C84EEF0729B8BDFF00EEB658 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = C855909429B4AE6E0079B560 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -177,6 +188,7 @@
 				C855909B29B4AE6E0079B560 /* ViewController.swift in Sources */,
 				C855909729B4AE6E0079B560 /* AppDelegate.swift in Sources */,
 				C855909929B4AE6E0079B560 /* SceneDelegate.swift in Sources */,
+				C84EEF0B29B8C01B00EEB658 /* ExtansionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +398,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C84EEF0729B8BDFF00EEB658 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C84EEF0829B8BDFF00EEB658 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C84EEF0729B8BDFF00EEB658 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C855908B29B4AE6E0079B560 /* Project object */;
 }
