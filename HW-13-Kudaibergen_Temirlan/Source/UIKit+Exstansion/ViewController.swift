@@ -24,15 +24,15 @@ class ViewController: UIViewController {
     //    MARK: Lifecyle
     override func viewDidLoad() {
         super.viewDidLoad()
-        tabsSetting = Tabs.newTabs
-        setupHierarchy()
+        setupViews()
         setupLayout()
     }
     
     
     
     //    MARK: Setup
-    private func setupHierarchy() {
+    private func setupViews() {
+        tabsSetting = Tabs.newTabs
         view.addSubview(tableView)
         view.backgroundColor = .white
         title = "Настройки"
